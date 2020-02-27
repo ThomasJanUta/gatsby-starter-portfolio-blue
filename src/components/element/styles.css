@@ -1,0 +1,65 @@
+/** { border: 1px solid #f00 !important; }*/
+
+/* --- Headroom --- */
+.headroom {
+    z-index: 3;
+    max-width: 70rem;
+    width: 100%;
+    padding: 1rem;
+    margin: 0 auto;
+    border-bottom: 2px solid white;
+    background-color: #141821;
+
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+@media only screen and (max-width: 37.5rem)  { /*600px*/
+    .headroom {
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+/* --- gatsby-remark-autolink-headers --- */
+.gatsby-remark-autolink-headers {
+    fill: #03dac4;
+}
+
+/* --- Markup --- */
+.blog-post a, .legal-content a {
+    /*color: #4600C8; !* --- light theme: theme > linkViolet --- *!*/
+    color: #03dac4; /* --- dark theme: theme > palette.secondary.main --- */
+    text-decoration: underline;
+}
+.blog-post a:visited, .legal-content a:visited {
+    color: #007fa8; /* --- theme > blue1 > darker for better contrast --- */
+}
+.blog-post a:hover, .legal-content a:hover {
+    color: #00B2CC; /* --- theme.palette.text.hint --- */
+    cursor: pointer;
+}
+.blog-post a:active, .legal-content a:active {
+    color: #00B2CC; /* --- theme.palette.text.hint --- */
+}
+.blog-post a:focus, .legal-content a:focus {
+    outline: thin dotted;
+}
+
+/* --- Lebenslauf --- */
+.lebenslauf h2 {
+    margin-top: 3rem;
+}
+.lebenslauf ul {
+    list-style-type: square;
+    padding: 0 1.5rem;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+.lebenslauf p {
+    margin: 0.5rem 0;
+    margin-block-start: 1rem;
+    margin-block-end: 0;
+}
