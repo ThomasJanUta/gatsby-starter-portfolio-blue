@@ -2,13 +2,13 @@
   Gatsby Starter Portfolio: Blue 
 </h1>
 
-Take a look at my [portfolio](https://thomasuta.de) (in German) for a demo.
+Take a look at my [portfolio](https://thomasuta.com) for a demo.
 
 ## ✨ Features
 
  - Showcase your projects in easily digestible cards
  - Use colorful chips to mark the technologies you used
- - CSS animations on shapes
+ - CSS animations on shapes (Credit goes to <https://github.com/LekoArts/gatsby-starter-portfolio-cara>)
  - Auto-generate a resume from markdown
  - Material UI, Theme UI, Styled Components based styles
  - Google Analytics
